@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		570A2619281A4D3C006D892A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570A2618281A4D3C006D892A /* AppDelegate.swift */; };
+		570A261B281A4D3C006D892A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570A261A281A4D3C006D892A /* SceneDelegate.swift */; };
+		570A261D281A4D3C006D892A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570A261C281A4D3C006D892A /* ViewController.swift */; };
+		570A2620281A4D3C006D892A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570A261E281A4D3C006D892A /* Main.storyboard */; };
+		570A2622281A4D3E006D892A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 570A2621281A4D3E006D892A /* Assets.xcassets */; };
+		570A2625281A4D3E006D892A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570A2623281A4D3E006D892A /* LaunchScreen.storyboard */; };
+		570A2630281A4D3E006D892A /* MineMitraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570A262F281A4D3E006D892A /* MineMitraTests.swift */; };
+		570A263A281A4D3F006D892A /* MineMitraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570A2639281A4D3F006D892A /* MineMitraUITests.swift */; };
+		570A263C281A4D3F006D892A /* MineMitraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570A263B281A4D3F006D892A /* MineMitraUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		570A262C281A4D3E006D892A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 570A260D281A4D3C006D892A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 570A2614281A4D3C006D892A;
+			remoteInfo = MineMitra;
+		};
+		570A2636281A4D3F006D892A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 570A260D281A4D3C006D892A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 570A2614281A4D3C006D892A;
+			remoteInfo = MineMitra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		570A2615281A4D3C006D892A /* MineMitra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineMitra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		570A2618281A4D3C006D892A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		570A261A281A4D3C006D892A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		570A261C281A4D3C006D892A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		570A261F281A4D3C006D892A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		570A2621281A4D3E006D892A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		570A2624281A4D3E006D892A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		570A2626281A4D3E006D892A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		570A262B281A4D3E006D892A /* MineMitraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineMitraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		570A262F281A4D3E006D892A /* MineMitraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineMitraTests.swift; sourceTree = "<group>"; };
+		570A2635281A4D3F006D892A /* MineMitraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineMitraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		570A2639281A4D3F006D892A /* MineMitraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineMitraUITests.swift; sourceTree = "<group>"; };
+		570A263B281A4D3F006D892A /* MineMitraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineMitraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		570A2612281A4D3C006D892A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570A2628281A4D3E006D892A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570A2632281A4D3F006D892A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		570A260C281A4D3C006D892A = {
+			isa = PBXGroup;
+			children = (
+				570A2617281A4D3C006D892A /* MineMitra */,
+				570A262E281A4D3E006D892A /* MineMitraTests */,
+				570A2638281A4D3F006D892A /* MineMitraUITests */,
+				570A2616281A4D3C006D892A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		570A2616281A4D3C006D892A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				570A2615281A4D3C006D892A /* MineMitra.app */,
+				570A262B281A4D3E006D892A /* MineMitraTests.xctest */,
+				570A2635281A4D3F006D892A /* MineMitraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		570A2617281A4D3C006D892A /* MineMitra */ = {
+			isa = PBXGroup;
+			children = (
+				570A2618281A4D3C006D892A /* AppDelegate.swift */,
+				570A261A281A4D3C006D892A /* SceneDelegate.swift */,
+				570A261C281A4D3C006D892A /* ViewController.swift */,
+				570A261E281A4D3C006D892A /* Main.storyboard */,
+				570A2621281A4D3E006D892A /* Assets.xcassets */,
+				570A2623281A4D3E006D892A /* LaunchScreen.storyboard */,
+				570A2626281A4D3E006D892A /* Info.plist */,
+			);
+			path = MineMitra;
+			sourceTree = "<group>";
+		};
+		570A262E281A4D3E006D892A /* MineMitraTests */ = {
+			isa = PBXGroup;
+			children = (
+				570A262F281A4D3E006D892A /* MineMitraTests.swift */,
+			);
+			path = MineMitraTests;
+			sourceTree = "<group>";
+		};
+		570A2638281A4D3F006D892A /* MineMitraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				570A2639281A4D3F006D892A /* MineMitraUITests.swift */,
+				570A263B281A4D3F006D892A /* MineMitraUITestsLaunchTests.swift */,
+			);
+			path = MineMitraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		570A2614281A4D3C006D892A /* MineMitra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 570A263F281A4D3F006D892A /* Build configuration list for PBXNativeTarget "MineMitra" */;
+			buildPhases = (
+				570A2611281A4D3C006D892A /* Sources */,
+				570A2612281A4D3C006D892A /* Frameworks */,
+				570A2613281A4D3C006D892A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MineMitra;
+			productName = MineMitra;
+			productReference = 570A2615281A4D3C006D892A /* MineMitra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		570A262A281A4D3E006D892A /* MineMitraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 570A2642281A4D3F006D892A /* Build configuration list for PBXNativeTarget "MineMitraTests" */;
+			buildPhases = (
+				570A2627281A4D3E006D892A /* Sources */,
+				570A2628281A4D3E006D892A /* Frameworks */,
+				570A2629281A4D3E006D892A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				570A262D281A4D3E006D892A /* PBXTargetDependency */,
+			);
+			name = MineMitraTests;
+			productName = MineMitraTests;
+			productReference = 570A262B281A4D3E006D892A /* MineMitraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		570A2634281A4D3F006D892A /* MineMitraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 570A2645281A4D3F006D892A /* Build configuration list for PBXNativeTarget "MineMitraUITests" */;
+			buildPhases = (
+				570A2631281A4D3F006D892A /* Sources */,
+				570A2632281A4D3F006D892A /* Frameworks */,
+				570A2633281A4D3F006D892A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				570A2637281A4D3F006D892A /* PBXTargetDependency */,
+			);
+			name = MineMitraUITests;
+			productName = MineMitraUITests;
+			productReference = 570A2635281A4D3F006D892A /* MineMitraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		570A260D281A4D3C006D892A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					570A2614281A4D3C006D892A = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					570A262A281A4D3E006D892A = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 570A2614281A4D3C006D892A;
+					};
+					570A2634281A4D3F006D892A = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 570A2614281A4D3C006D892A;
+					};
+				};
+			};
+			buildConfigurationList = 570A2610281A4D3C006D892A /* Build configuration list for PBXProject "MineMitra" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 570A260C281A4D3C006D892A;
+			productRefGroup = 570A2616281A4D3C006D892A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				570A2614281A4D3C006D892A /* MineMitra */,
+				570A262A281A4D3E006D892A /* MineMitraTests */,
+				570A2634281A4D3F006D892A /* MineMitraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		570A2613281A4D3C006D892A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570A2625281A4D3E006D892A /* LaunchScreen.storyboard in Resources */,
+				570A2622281A4D3E006D892A /* Assets.xcassets in Resources */,
+				570A2620281A4D3C006D892A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570A2629281A4D3E006D892A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570A2633281A4D3F006D892A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		570A2611281A4D3C006D892A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570A261D281A4D3C006D892A /* ViewController.swift in Sources */,
+				570A2619281A4D3C006D892A /* AppDelegate.swift in Sources */,
+				570A261B281A4D3C006D892A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570A2627281A4D3E006D892A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570A2630281A4D3E006D892A /* MineMitraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570A2631281A4D3F006D892A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570A263A281A4D3F006D892A /* MineMitraUITests.swift in Sources */,
+				570A263C281A4D3F006D892A /* MineMitraUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		570A262D281A4D3E006D892A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 570A2614281A4D3C006D892A /* MineMitra */;
+			targetProxy = 570A262C281A4D3E006D892A /* PBXContainerItemProxy */;
+		};
+		570A2637281A4D3F006D892A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 570A2614281A4D3C006D892A /* MineMitra */;
+			targetProxy = 570A2636281A4D3F006D892A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		570A261E281A4D3C006D892A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				570A261F281A4D3C006D892A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		570A2623281A4D3E006D892A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				570A2624281A4D3E006D892A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		570A263D281A4D3F006D892A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		570A263E281A4D3F006D892A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		570A2640281A4D3F006D892A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MK47F4QPL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MineMitra/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MineMitra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		570A2641281A4D3F006D892A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MK47F4QPL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MineMitra/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MineMitra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		570A2643281A4D3F006D892A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MK47F4QPL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MineMitraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MineMitra.app/MineMitra";
+			};
+			name = Debug;
+		};
+		570A2644281A4D3F006D892A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MK47F4QPL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MineMitraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MineMitra.app/MineMitra";
+			};
+			name = Release;
+		};
+		570A2646281A4D3F006D892A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MK47F4QPL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MineMitraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MineMitra;
+			};
+			name = Debug;
+		};
+		570A2647281A4D3F006D892A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MK47F4QPL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MineMitraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MineMitra;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		570A2610281A4D3C006D892A /* Build configuration list for PBXProject "MineMitra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570A263D281A4D3F006D892A /* Debug */,
+				570A263E281A4D3F006D892A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		570A263F281A4D3F006D892A /* Build configuration list for PBXNativeTarget "MineMitra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570A2640281A4D3F006D892A /* Debug */,
+				570A2641281A4D3F006D892A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		570A2642281A4D3F006D892A /* Build configuration list for PBXNativeTarget "MineMitraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570A2643281A4D3F006D892A /* Debug */,
+				570A2644281A4D3F006D892A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		570A2645281A4D3F006D892A /* Build configuration list for PBXNativeTarget "MineMitraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570A2646281A4D3F006D892A /* Debug */,
+				570A2647281A4D3F006D892A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 570A260D281A4D3C006D892A /* Project object */;
+}
