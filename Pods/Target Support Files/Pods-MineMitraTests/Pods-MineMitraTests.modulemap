@@ -1,0 +1,6 @@
+framework module Pods_MineMitraTests {
+  umbrella header "Pods-MineMitraTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

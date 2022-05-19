@@ -1,0 +1,6 @@
+framework module Pods_MineMitra_MineMitraUITests {
+  umbrella header "Pods-MineMitra-MineMitraUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
