@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Rubik-Regular.ttf">
+            <string>Rubik-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="InProcessCommonTableViewCell" rowHeight="49" id="KGk-i7-Jjw" customClass="InProcessCommonTableViewCell" customModule="MineMitra" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="432" height="49"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="432" height="49"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="APPLICANT" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TzX-VM-fPH">
+                        <rect key="frame" x="12" y="12" width="259" height="22"/>
+                        <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="18"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JeS-gE-X5j">
+                        <rect key="frame" x="12" y="44" width="408" height="1"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.2335471854" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="pIc-1B-wfM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":         49" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nRk-zL-O8m">
+                        <rect key="frame" x="290" y="12" width="67" height="22"/>
+                        <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="18"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="play" translatesAutoresizingMaskIntoConstraints="NO" id="fg1-OP-Y8l">
+                        <rect key="frame" x="402" y="16.5" width="12" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="12" id="OJR-Ff-Sp8"/>
+                            <constraint firstAttribute="height" constant="13" id="m34-fc-Jtq"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="fg1-OP-Y8l" firstAttribute="centerY" secondItem="nRk-zL-O8m" secondAttribute="centerY" id="1ip-IJ-hxf"/>
+                    <constraint firstItem="nRk-zL-O8m" firstAttribute="centerY" secondItem="TzX-VM-fPH" secondAttribute="centerY" id="6Ii-dz-Ywo"/>
+                    <constraint firstAttribute="trailing" secondItem="fg1-OP-Y8l" secondAttribute="trailing" constant="18" id="6b3-9h-MkN"/>
+                    <constraint firstItem="JeS-gE-X5j" firstAttribute="top" secondItem="TzX-VM-fPH" secondAttribute="bottom" constant="10" id="8Yx-RG-AgE"/>
+                    <constraint firstAttribute="trailing" secondItem="JeS-gE-X5j" secondAttribute="trailing" constant="12" id="ESc-hi-6bM"/>
+                    <constraint firstItem="JeS-gE-X5j" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="GbL-0Y-uEJ"/>
+                    <constraint firstItem="fg1-OP-Y8l" firstAttribute="leading" secondItem="nRk-zL-O8m" secondAttribute="trailing" constant="45" id="KY0-cy-m4l"/>
+                    <constraint firstItem="TzX-VM-fPH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="ahM-iS-jcN"/>
+                    <constraint firstItem="TzX-VM-fPH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="oRo-f4-YsR"/>
+                    <constraint firstItem="TzX-VM-fPH" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.6" id="qin-9g-M9n"/>
+                    <constraint firstAttribute="bottom" secondItem="JeS-gE-X5j" secondAttribute="bottom" constant="4" id="zWu-rW-C59"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="countLbl" destination="nRk-zL-O8m" id="WOW-ad-Gbj"/>
+                <outlet property="titleNameLbl" destination="TzX-VM-fPH" id="PO9-KG-gmj"/>
+            </connections>
+            <point key="canvasLocation" x="213.04347826086959" y="101.45089285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="play" width="512" height="512"/>
+    </resources>
+</document>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Rubik-Regular.ttf">
+            <string>Rubik-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="UsersListTableViewCell" rowHeight="48" id="KGk-i7-Jjw" customClass="UsersListTableViewCell" customModule="MineMitra" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="437" height="48"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="437" height="48"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Viz-c5-d5R">
+                        <rect key="frame" x="12" y="14.5" width="43.5" height="19"/>
+                        <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="16"/>
+                        <color key="textColor" red="0.019000001249999999" green="0.20069456099999999" blue="0.32890787719999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bhadohi " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yvv-gH-O2b">
+                        <rect key="frame" x="120" y="12" width="197" height="18"/>
+                        <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="15"/>
+                        <color key="textColor" red="0.019000001249999999" green="0.20069456099999999" blue="0.32890787719999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qjI-kt-erM">
+                        <rect key="frame" x="390" y="11" width="35" height="20"/>
+                        <color key="backgroundColor" red="0.019000001249999999" green="0.20069456099999999" blue="0.32890787719999998" alpha="0.22971854304635761" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="eBG-SV-4Uz"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="35" id="vIp-zP-ll9"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="16"/>
+                        <color key="textColor" red="0.019000001249999999" green="0.20069456099999999" blue="0.32890787719999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3pN-lE-9cB">
+                        <rect key="frame" x="12" y="42" width="413" height="1"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.2335471854" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="erw-m0-8gZ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="qjI-kt-erM" firstAttribute="centerY" secondItem="Yvv-gH-O2b" secondAttribute="centerY" id="5th-bH-fFN"/>
+                    <constraint firstItem="Yvv-gH-O2b" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.45" id="6SM-JU-M1o"/>
+                    <constraint firstItem="Viz-c5-d5R" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="7ul-e4-7xG"/>
+                    <constraint firstItem="Yvv-gH-O2b" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="8Sy-FG-Rn0"/>
+                    <constraint firstItem="3pN-lE-9cB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="FGV-hE-FEt"/>
+                    <constraint firstItem="Viz-c5-d5R" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.1" id="RVV-cB-wuX"/>
+                    <constraint firstAttribute="bottom" secondItem="3pN-lE-9cB" secondAttribute="bottom" constant="5" id="ck4-Ae-Klo"/>
+                    <constraint firstAttribute="trailing" secondItem="3pN-lE-9cB" secondAttribute="trailing" constant="12" id="hKa-Y4-X1M"/>
+                    <constraint firstAttribute="trailing" secondItem="qjI-kt-erM" secondAttribute="trailing" constant="12" id="jQe-K3-KL6"/>
+                    <constraint firstItem="3pN-lE-9cB" firstAttribute="top" secondItem="Yvv-gH-O2b" secondAttribute="bottom" constant="12" id="ksG-4i-O7C"/>
+                    <constraint firstItem="Viz-c5-d5R" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="n10-6k-jpr"/>
+                    <constraint firstItem="Yvv-gH-O2b" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="rUO-OL-MGC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="countLabel" destination="qjI-kt-erM" id="doC-Mk-6Yk"/>
+                <outlet property="districtname" destination="Yvv-gH-O2b" id="xz4-uR-yaf"/>
+                <outlet property="serialNumber" destination="Viz-c5-d5R" id="wja-b5-1Sz"/>
+            </connections>
+            <point key="canvasLocation" x="216.66666666666669" y="101.11607142857143"/>
+        </tableViewCell>
+    </objects>
+</document>

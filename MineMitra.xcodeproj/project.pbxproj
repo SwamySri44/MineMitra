@@ -16,6 +16,52 @@
 		570A2630281A4D3E006D892A /* MineMitraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570A262F281A4D3E006D892A /* MineMitraTests.swift */; };
 		570A263A281A4D3F006D892A /* MineMitraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570A2639281A4D3F006D892A /* MineMitraUITests.swift */; };
 		570A263C281A4D3F006D892A /* MineMitraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570A263B281A4D3F006D892A /* MineMitraUITestsLaunchTests.swift */; };
+		570A2659281A4D66006D892A /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 570A2648281A4D64006D892A /* Rubik-Regular.ttf */; };
+		570A265A281A4D66006D892A /* Rubik-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 570A2649281A4D64006D892A /* Rubik-SemiBoldItalic.ttf */; };
+		570A265B281A4D66006D892A /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 570A264A281A4D64006D892A /* Rubik-BoldItalic.ttf */; };
+		570A265C281A4D66006D892A /* Rubik-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 570A264B281A4D64006D892A /* Rubik-ExtraBold.ttf */; };
+		570A265D281A4D66006D892A /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 570A264C281A4D64006D892A /* Rubik-BlackItalic.ttf */; };
+		570A265E281A4D66006D892A /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 570A264D281A4D64006D892A /* Rubik-Bold.ttf */; };
+		570A265F281A4D66006D892A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570A264E281A4D64006D892A /* Extensions.swift */; };
+		570A2660281A4D66006D892A /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 570A264F281A4D64006D892A /* Rubik-LightItalic.ttf */; };
+		570A2661281A4D66006D892A /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 570A2650281A4D65006D892A /* Rubik-MediumItalic.ttf */; };
+		570A2662281A4D66006D892A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570A2651281A4D65006D892A /* Constants.swift */; };
+		570A2663281A4D66006D892A /* Rubik-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 570A2652281A4D65006D892A /* Rubik-ExtraBoldItalic.ttf */; };
+		570A2664281A4D66006D892A /* Rubik-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 570A2653281A4D65006D892A /* Rubik-SemiBold.ttf */; };
+		570A2665281A4D66006D892A /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570A2654281A4D65006D892A /* Utility.swift */; };
+		570A2666281A4D66006D892A /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 570A2655281A4D65006D892A /* Rubik-Black.ttf */; };
+		570A2667281A4D66006D892A /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 570A2656281A4D65006D892A /* Rubik-Medium.ttf */; };
+		570A2668281A4D66006D892A /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 570A2657281A4D65006D892A /* Rubik-Italic.ttf */; };
+		570A2669281A4D66006D892A /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 570A2658281A4D65006D892A /* Rubik-Light.ttf */; };
+		570A266D281C67C1006D892A /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570A266C281C67C1006D892A /* SupportViewController.swift */; };
+		570A266F281C6D24006D892A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570A266E281C6D24006D892A /* GradientView.swift */; };
+		570A2671281C75B3006D892A /* GetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570A2670281C75B3006D892A /* GetStartedViewController.swift */; };
+		5712FFD5281ECC4C0061F96C /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5712FFD4281ECC4C0061F96C /* UserProfileViewController.swift */; };
+		5712FFD7281ECD300061F96C /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5712FFD6281ECD300061F96C /* LocalStorage.swift */; };
+		57CAE467281EF7AB00D55E8C /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CAE466281EF7AB00D55E8C /* AboutUsViewController.swift */; };
+		57CBE0F82820300100F9DEF9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CBE0F72820300100F9DEF9 /* SearchViewController.swift */; };
+		6E2749F940EB74FA402D6776 /* Pods_MineMitraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F26943852237644B61B794 /* Pods_MineMitraTests.framework */; };
+		6F8ADD6BB30DF2812CBD551F /* Pods_MineMitra_MineMitraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A593FC7CC20F6CA9AEAB9B5 /* Pods_MineMitra_MineMitraUITests.framework */; };
+		C475E1A1281BAF4A0004C526 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C475E1A0281BAF4A0004C526 /* DashboardViewController.swift */; };
+		C475E1A3281BE5D10004C526 /* SelectRoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C475E1A2281BE5D00004C526 /* SelectRoleViewController.swift */; };
+		C475E1A5281BE5DC0004C526 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C475E1A4281BE5DC0004C526 /* LoginViewController.swift */; };
+		C475E1A7281BED160004C526 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C475E1A6281BED160004C526 /* SplashViewController.swift */; };
+		C4939BAE281A59AC00E3B47B /* UsersListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4939BAC281A59AC00E3B47B /* UsersListTableViewCell.swift */; };
+		C4939BAF281A59AC00E3B47B /* UsersListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4939BAD281A59AC00E3B47B /* UsersListTableViewCell.xib */; };
+		C4939BB1281A5B4900E3B47B /* ServicesForCitizenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4939BB0281A5B4900E3B47B /* ServicesForCitizenViewController.swift */; };
+		C4939BB3281A5B7100E3B47B /* AllData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4939BB2281A5B7100E3B47B /* AllData.swift */; };
+		C4939BB5281A5B7C00E3B47B /* Datamanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4939BB4281A5B7C00E3B47B /* Datamanger.swift */; };
+		C4939BB7281A60A000E3B47B /* UserApplicationStatusListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4939BB6281A60A000E3B47B /* UserApplicationStatusListViewController.swift */; };
+		C4939BBA281A6E0A00E3B47B /* InProcessUnderQueryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4939BB8281A6E0A00E3B47B /* InProcessUnderQueryTableViewCell.swift */; };
+		C4939BBB281A6E0A00E3B47B /* InProcessUnderQueryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4939BB9281A6E0A00E3B47B /* InProcessUnderQueryTableViewCell.xib */; };
+		C4939BBE281A70FF00E3B47B /* InProcessPendingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4939BBC281A70FF00E3B47B /* InProcessPendingTableViewCell.swift */; };
+		C4939BBF281A70FF00E3B47B /* InProcessPendingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4939BBD281A70FF00E3B47B /* InProcessPendingTableViewCell.xib */; };
+		C4939BC2281A719100E3B47B /* InProcessCommonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4939BC0281A719100E3B47B /* InProcessCommonTableViewCell.swift */; };
+		C4939BC3281A719100E3B47B /* InProcessCommonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4939BC1281A719100E3B47B /* InProcessCommonTableViewCell.xib */; };
+		C4939BC5281A736C00E3B47B /* UserInprocessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4939BC4281A736C00E3B47B /* UserInprocessViewController.swift */; };
+		C4939BC9281A950B00E3B47B /* InProcessPendingSecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4939BC7281A950B00E3B47B /* InProcessPendingSecondTableViewCell.swift */; };
+		C4939BCA281A950B00E3B47B /* InProcessPendingSecondTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4939BC8281A950B00E3B47B /* InProcessPendingSecondTableViewCell.xib */; };
+		DBA4F4EED7191F4CE0250006 /* Pods_MineMitra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA20987B55E774028F5069DA /* Pods_MineMitra.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +82,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19850E314C0EC9D105DEB738 /* Pods-MineMitraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineMitraTests.release.xcconfig"; path = "Target Support Files/Pods-MineMitraTests/Pods-MineMitraTests.release.xcconfig"; sourceTree = "<group>"; };
 		570A2615281A4D3C006D892A /* MineMitra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineMitra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		570A2618281A4D3C006D892A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		570A261A281A4D3C006D892A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +96,57 @@
 		570A2635281A4D3F006D892A /* MineMitraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineMitraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		570A2639281A4D3F006D892A /* MineMitraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineMitraUITests.swift; sourceTree = "<group>"; };
 		570A263B281A4D3F006D892A /* MineMitraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineMitraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		570A2648281A4D64006D892A /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		570A2649281A4D64006D892A /* Rubik-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		570A264A281A4D64006D892A /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		570A264B281A4D64006D892A /* Rubik-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-ExtraBold.ttf"; sourceTree = "<group>"; };
+		570A264C281A4D64006D892A /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		570A264D281A4D64006D892A /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		570A264E281A4D64006D892A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		570A264F281A4D64006D892A /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		570A2650281A4D65006D892A /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		570A2651281A4D65006D892A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		570A2652281A4D65006D892A /* Rubik-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		570A2653281A4D65006D892A /* Rubik-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-SemiBold.ttf"; sourceTree = "<group>"; };
+		570A2654281A4D65006D892A /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		570A2655281A4D65006D892A /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		570A2656281A4D65006D892A /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		570A2657281A4D65006D892A /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		570A2658281A4D65006D892A /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		570A266C281C67C1006D892A /* SupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
+		570A266E281C6D24006D892A /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		570A2670281C75B3006D892A /* GetStartedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedViewController.swift; sourceTree = "<group>"; };
+		5712FFD4281ECC4C0061F96C /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		5712FFD6281ECD300061F96C /* LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
+		57CAE466281EF7AB00D55E8C /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		57CBE0F72820300100F9DEF9 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		67B823BA73A3D279B85890AE /* Pods-MineMitra-MineMitraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineMitra-MineMitraUITests.release.xcconfig"; path = "Target Support Files/Pods-MineMitra-MineMitraUITests/Pods-MineMitra-MineMitraUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6897D29BB1A535A0C34A6E30 /* Pods-MineMitra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineMitra.release.xcconfig"; path = "Target Support Files/Pods-MineMitra/Pods-MineMitra.release.xcconfig"; sourceTree = "<group>"; };
+		8A593FC7CC20F6CA9AEAB9B5 /* Pods_MineMitra_MineMitraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MineMitra_MineMitraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7DEEF0002637BD82EF8145 /* Pods-MineMitra-MineMitraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineMitra-MineMitraUITests.debug.xcconfig"; path = "Target Support Files/Pods-MineMitra-MineMitraUITests/Pods-MineMitra-MineMitraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9441C109AD3FCC13F0E1988B /* Pods-MineMitraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineMitraTests.debug.xcconfig"; path = "Target Support Files/Pods-MineMitraTests/Pods-MineMitraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		96F26943852237644B61B794 /* Pods_MineMitraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MineMitraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A881D761F89B4F3283787606 /* Pods-MineMitra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineMitra.debug.xcconfig"; path = "Target Support Files/Pods-MineMitra/Pods-MineMitra.debug.xcconfig"; sourceTree = "<group>"; };
+		C475E1A0281BAF4A0004C526 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		C475E1A2281BE5D00004C526 /* SelectRoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRoleViewController.swift; sourceTree = "<group>"; };
+		C475E1A4281BE5DC0004C526 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C475E1A6281BED160004C526 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		C4939BAC281A59AC00E3B47B /* UsersListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListTableViewCell.swift; sourceTree = "<group>"; };
+		C4939BAD281A59AC00E3B47B /* UsersListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsersListTableViewCell.xib; sourceTree = "<group>"; };
+		C4939BB0281A5B4900E3B47B /* ServicesForCitizenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesForCitizenViewController.swift; sourceTree = "<group>"; };
+		C4939BB2281A5B7100E3B47B /* AllData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllData.swift; sourceTree = "<group>"; };
+		C4939BB4281A5B7C00E3B47B /* Datamanger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datamanger.swift; sourceTree = "<group>"; };
+		C4939BB6281A60A000E3B47B /* UserApplicationStatusListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApplicationStatusListViewController.swift; sourceTree = "<group>"; };
+		C4939BB8281A6E0A00E3B47B /* InProcessUnderQueryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InProcessUnderQueryTableViewCell.swift; sourceTree = "<group>"; };
+		C4939BB9281A6E0A00E3B47B /* InProcessUnderQueryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InProcessUnderQueryTableViewCell.xib; sourceTree = "<group>"; };
+		C4939BBC281A70FF00E3B47B /* InProcessPendingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InProcessPendingTableViewCell.swift; sourceTree = "<group>"; };
+		C4939BBD281A70FF00E3B47B /* InProcessPendingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InProcessPendingTableViewCell.xib; sourceTree = "<group>"; };
+		C4939BC0281A719100E3B47B /* InProcessCommonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InProcessCommonTableViewCell.swift; sourceTree = "<group>"; };
+		C4939BC1281A719100E3B47B /* InProcessCommonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InProcessCommonTableViewCell.xib; sourceTree = "<group>"; };
+		C4939BC4281A736C00E3B47B /* UserInprocessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInprocessViewController.swift; sourceTree = "<group>"; };
+		C4939BC7281A950B00E3B47B /* InProcessPendingSecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InProcessPendingSecondTableViewCell.swift; sourceTree = "<group>"; };
+		C4939BC8281A950B00E3B47B /* InProcessPendingSecondTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InProcessPendingSecondTableViewCell.xib; sourceTree = "<group>"; };
+		EA20987B55E774028F5069DA /* Pods_MineMitra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MineMitra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBA4F4EED7191F4CE0250006 /* Pods_MineMitra.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E2749F940EB74FA402D6776 /* Pods_MineMitraTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +170,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F8ADD6BB30DF2812CBD551F /* Pods_MineMitra_MineMitraUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23482EEB613C43A7988110EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A881D761F89B4F3283787606 /* Pods-MineMitra.debug.xcconfig */,
+				6897D29BB1A535A0C34A6E30 /* Pods-MineMitra.release.xcconfig */,
+				8F7DEEF0002637BD82EF8145 /* Pods-MineMitra-MineMitraUITests.debug.xcconfig */,
+				67B823BA73A3D279B85890AE /* Pods-MineMitra-MineMitraUITests.release.xcconfig */,
+				9441C109AD3FCC13F0E1988B /* Pods-MineMitraTests.debug.xcconfig */,
+				19850E314C0EC9D105DEB738 /* Pods-MineMitraTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		570A260C281A4D3C006D892A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +197,8 @@
 				570A262E281A4D3E006D892A /* MineMitraTests */,
 				570A2638281A4D3F006D892A /* MineMitraUITests */,
 				570A2616281A4D3C006D892A /* Products */,
+				23482EEB613C43A7988110EE /* Pods */,
+				92F357C1C36FCB53AF205EC2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +217,41 @@
 			children = (
 				570A2618281A4D3C006D892A /* AppDelegate.swift */,
 				570A261A281A4D3C006D892A /* SceneDelegate.swift */,
+				570A2651281A4D65006D892A /* Constants.swift */,
+				570A264E281A4D64006D892A /* Extensions.swift */,
+				570A2655281A4D65006D892A /* Rubik-Black.ttf */,
+				570A264C281A4D64006D892A /* Rubik-BlackItalic.ttf */,
+				570A264D281A4D64006D892A /* Rubik-Bold.ttf */,
+				570A264A281A4D64006D892A /* Rubik-BoldItalic.ttf */,
+				570A264B281A4D64006D892A /* Rubik-ExtraBold.ttf */,
+				570A2652281A4D65006D892A /* Rubik-ExtraBoldItalic.ttf */,
+				570A2657281A4D65006D892A /* Rubik-Italic.ttf */,
+				570A2658281A4D65006D892A /* Rubik-Light.ttf */,
+				570A264F281A4D64006D892A /* Rubik-LightItalic.ttf */,
+				570A2656281A4D65006D892A /* Rubik-Medium.ttf */,
+				570A2650281A4D65006D892A /* Rubik-MediumItalic.ttf */,
+				570A2648281A4D64006D892A /* Rubik-Regular.ttf */,
+				570A2653281A4D65006D892A /* Rubik-SemiBold.ttf */,
+				570A2649281A4D64006D892A /* Rubik-SemiBoldItalic.ttf */,
+				570A266E281C6D24006D892A /* GradientView.swift */,
+				C4939BB4281A5B7C00E3B47B /* Datamanger.swift */,
+				C4939BB2281A5B7100E3B47B /* AllData.swift */,
+				570A2654281A4D65006D892A /* Utility.swift */,
 				570A261C281A4D3C006D892A /* ViewController.swift */,
+				C475E1A2281BE5D00004C526 /* SelectRoleViewController.swift */,
+				C475E1A4281BE5DC0004C526 /* LoginViewController.swift */,
+				C4939BB0281A5B4900E3B47B /* ServicesForCitizenViewController.swift */,
+				C4939BB6281A60A000E3B47B /* UserApplicationStatusListViewController.swift */,
+				5712FFD6281ECD300061F96C /* LocalStorage.swift */,
+				C475E1A0281BAF4A0004C526 /* DashboardViewController.swift */,
+				C4939BC4281A736C00E3B47B /* UserInprocessViewController.swift */,
+				C475E1A6281BED160004C526 /* SplashViewController.swift */,
+				570A266C281C67C1006D892A /* SupportViewController.swift */,
+				570A2670281C75B3006D892A /* GetStartedViewController.swift */,
+				5712FFD4281ECC4C0061F96C /* UserProfileViewController.swift */,
+				57CAE466281EF7AB00D55E8C /* AboutUsViewController.swift */,
+				57CBE0F72820300100F9DEF9 /* SearchViewController.swift */,
+				C4939BC6281A744600E3B47B /* Views */,
 				570A261E281A4D3C006D892A /* Main.storyboard */,
 				570A2621281A4D3E006D892A /* Assets.xcassets */,
 				570A2623281A4D3E006D892A /* LaunchScreen.storyboard */,
@@ -127,6 +277,33 @@
 			path = MineMitraUITests;
 			sourceTree = "<group>";
 		};
+		92F357C1C36FCB53AF205EC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA20987B55E774028F5069DA /* Pods_MineMitra.framework */,
+				8A593FC7CC20F6CA9AEAB9B5 /* Pods_MineMitra_MineMitraUITests.framework */,
+				96F26943852237644B61B794 /* Pods_MineMitraTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4939BC6281A744600E3B47B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C4939BAC281A59AC00E3B47B /* UsersListTableViewCell.swift */,
+				C4939BAD281A59AC00E3B47B /* UsersListTableViewCell.xib */,
+				C4939BB8281A6E0A00E3B47B /* InProcessUnderQueryTableViewCell.swift */,
+				C4939BB9281A6E0A00E3B47B /* InProcessUnderQueryTableViewCell.xib */,
+				C4939BBC281A70FF00E3B47B /* InProcessPendingTableViewCell.swift */,
+				C4939BBD281A70FF00E3B47B /* InProcessPendingTableViewCell.xib */,
+				C4939BC0281A719100E3B47B /* InProcessCommonTableViewCell.swift */,
+				C4939BC1281A719100E3B47B /* InProcessCommonTableViewCell.xib */,
+				C4939BC7281A950B00E3B47B /* InProcessPendingSecondTableViewCell.swift */,
+				C4939BC8281A950B00E3B47B /* InProcessPendingSecondTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +311,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 570A263F281A4D3F006D892A /* Build configuration list for PBXNativeTarget "MineMitra" */;
 			buildPhases = (
+				EEDA1F9194AF32994D1116DE /* [CP] Check Pods Manifest.lock */,
 				570A2611281A4D3C006D892A /* Sources */,
 				570A2612281A4D3C006D892A /* Frameworks */,
 				570A2613281A4D3C006D892A /* Resources */,
+				DEACFCBB709A1F8F2533D78B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +330,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 570A2642281A4D3F006D892A /* Build configuration list for PBXNativeTarget "MineMitraTests" */;
 			buildPhases = (
+				D9EDF787A148F4DD206C6090 /* [CP] Check Pods Manifest.lock */,
 				570A2627281A4D3E006D892A /* Sources */,
 				570A2628281A4D3E006D892A /* Frameworks */,
 				570A2629281A4D3E006D892A /* Resources */,
@@ -169,9 +349,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 570A2645281A4D3F006D892A /* Build configuration list for PBXNativeTarget "MineMitraUITests" */;
 			buildPhases = (
+				C2B241A87E58F73358113E3D /* [CP] Check Pods Manifest.lock */,
 				570A2631281A4D3F006D892A /* Sources */,
 				570A2632281A4D3F006D892A /* Frameworks */,
 				570A2633281A4D3F006D892A /* Resources */,
+				DAEC7188CDC1EA5DC22E8393 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,7 +414,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				570A2625281A4D3E006D892A /* LaunchScreen.storyboard in Resources */,
+				C4939BC3281A719100E3B47B /* InProcessCommonTableViewCell.xib in Resources */,
+				C4939BBB281A6E0A00E3B47B /* InProcessUnderQueryTableViewCell.xib in Resources */,
+				570A2664281A4D66006D892A /* Rubik-SemiBold.ttf in Resources */,
+				570A2660281A4D66006D892A /* Rubik-LightItalic.ttf in Resources */,
+				570A2669281A4D66006D892A /* Rubik-Light.ttf in Resources */,
+				570A265E281A4D66006D892A /* Rubik-Bold.ttf in Resources */,
+				570A265B281A4D66006D892A /* Rubik-BoldItalic.ttf in Resources */,
+				570A2659281A4D66006D892A /* Rubik-Regular.ttf in Resources */,
+				570A265A281A4D66006D892A /* Rubik-SemiBoldItalic.ttf in Resources */,
+				570A2663281A4D66006D892A /* Rubik-ExtraBoldItalic.ttf in Resources */,
 				570A2622281A4D3E006D892A /* Assets.xcassets in Resources */,
+				570A2667281A4D66006D892A /* Rubik-Medium.ttf in Resources */,
+				570A265C281A4D66006D892A /* Rubik-ExtraBold.ttf in Resources */,
+				570A2666281A4D66006D892A /* Rubik-Black.ttf in Resources */,
+				570A2668281A4D66006D892A /* Rubik-Italic.ttf in Resources */,
+				570A265D281A4D66006D892A /* Rubik-BlackItalic.ttf in Resources */,
+				C4939BBF281A70FF00E3B47B /* InProcessPendingTableViewCell.xib in Resources */,
+				C4939BCA281A950B00E3B47B /* InProcessPendingSecondTableViewCell.xib in Resources */,
+				570A2661281A4D66006D892A /* Rubik-MediumItalic.ttf in Resources */,
+				C4939BAF281A59AC00E3B47B /* UsersListTableViewCell.xib in Resources */,
 				570A2620281A4D3C006D892A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +454,141 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C2B241A87E58F73358113E3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MineMitra-MineMitraUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9EDF787A148F4DD206C6090 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MineMitraTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAEC7188CDC1EA5DC22E8393 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MineMitra-MineMitraUITests/Pods-MineMitra-MineMitraUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MineMitra-MineMitraUITests/Pods-MineMitra-MineMitraUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MineMitra-MineMitraUITests/Pods-MineMitra-MineMitraUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEACFCBB709A1F8F2533D78B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MineMitra/Pods-MineMitra-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MineMitra/Pods-MineMitra-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MineMitra/Pods-MineMitra-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEDA1F9194AF32994D1116DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MineMitra-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		570A2611281A4D3C006D892A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				570A2662281A4D66006D892A /* Constants.swift in Sources */,
+				5712FFD5281ECC4C0061F96C /* UserProfileViewController.swift in Sources */,
+				C4939BB5281A5B7C00E3B47B /* Datamanger.swift in Sources */,
+				57CBE0F82820300100F9DEF9 /* SearchViewController.swift in Sources */,
+				570A266F281C6D24006D892A /* GradientView.swift in Sources */,
+				570A2671281C75B3006D892A /* GetStartedViewController.swift in Sources */,
+				C4939BB7281A60A000E3B47B /* UserApplicationStatusListViewController.swift in Sources */,
+				C4939BB1281A5B4900E3B47B /* ServicesForCitizenViewController.swift in Sources */,
+				C475E1A5281BE5DC0004C526 /* LoginViewController.swift in Sources */,
+				C4939BB3281A5B7100E3B47B /* AllData.swift in Sources */,
 				570A261D281A4D3C006D892A /* ViewController.swift in Sources */,
+				570A2665281A4D66006D892A /* Utility.swift in Sources */,
+				C4939BBE281A70FF00E3B47B /* InProcessPendingTableViewCell.swift in Sources */,
 				570A2619281A4D3C006D892A /* AppDelegate.swift in Sources */,
 				570A261B281A4D3C006D892A /* SceneDelegate.swift in Sources */,
+				57CAE467281EF7AB00D55E8C /* AboutUsViewController.swift in Sources */,
+				570A265F281A4D66006D892A /* Extensions.swift in Sources */,
+				C4939BC2281A719100E3B47B /* InProcessCommonTableViewCell.swift in Sources */,
+				5712FFD7281ECD300061F96C /* LocalStorage.swift in Sources */,
+				C4939BC5281A736C00E3B47B /* UserInprocessViewController.swift in Sources */,
+				C4939BBA281A6E0A00E3B47B /* InProcessUnderQueryTableViewCell.swift in Sources */,
+				C475E1A3281BE5D10004C526 /* SelectRoleViewController.swift in Sources */,
+				C4939BC9281A950B00E3B47B /* InProcessPendingSecondTableViewCell.swift in Sources */,
+				C4939BAE281A59AC00E3B47B /* UsersListTableViewCell.swift in Sources */,
+				C475E1A1281BAF4A0004C526 /* DashboardViewController.swift in Sources */,
+				C475E1A7281BED160004C526 /* SplashViewController.swift in Sources */,
+				570A266D281C67C1006D892A /* SupportViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,10 +760,12 @@
 		};
 		570A2640281A4D3F006D892A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A881D761F89B4F3283787606 /* Pods-MineMitra.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9MK47F4QPL;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -443,8 +773,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,18 +784,21 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MineMitra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "New Mitra";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		570A2641281A4D3F006D892A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6897D29BB1A535A0C34A6E30 /* Pods-MineMitra.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9MK47F4QPL;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -471,8 +806,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,14 +817,16 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MineMitra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "New Mitra";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		570A2643281A4D3F006D892A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9441C109AD3FCC13F0E1988B /* Pods-MineMitraTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +847,7 @@
 		};
 		570A2644281A4D3F006D892A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19850E314C0EC9D105DEB738 /* Pods-MineMitraTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +868,7 @@
 		};
 		570A2646281A4D3F006D892A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F7DEEF0002637BD82EF8145 /* Pods-MineMitra-MineMitraUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +887,7 @@
 		};
 		570A2647281A4D3F006D892A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B823BA73A3D279B85890AE /* Pods-MineMitra-MineMitraUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
